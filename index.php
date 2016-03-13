@@ -45,17 +45,19 @@ catch
     </script>
 </head>
 <body>
+<div class="col-md-12">
 <div class="panel panel-primary">
 <div class="panel-heading">Tabel Detail Karet</div>
+    <div class="panel-body">
 <?php
 if (!isset($err_kon)):
     $tr .= '<table id="tabelku" class="tabelku table table-bordered table-striped table-hover table-condensed dt-responsove nowrap" cellspacing="0" width="100%">';
     $tr .= '<thead>';
     $tr .= '<tr>';
-    $tr .= '<th>Tanggal</th>';
-    $tr .= '<th>Jenis Karet</th>';
-    $tr .= '<th>Berat Jenis</th>';
-    $tr .= '<th>Keterangan</th>';
+    $tr .= '<th>Date</th>';
+    $tr .= '<th>Title</th>';
+    $tr .= '<th>Type</th>';
+    $tr .= '<th>Comment</th>';
     $tr .= '</tr>';
     $tr .= '</thead><tbody>';
     if ($admin->rowCount() > 0):
@@ -85,6 +87,8 @@ echo $tr; return; break;
 <?php
 }
 ?>
+        </div>
+    </div>
     </div>
 </body>
 </html>
