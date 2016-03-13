@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - zeta@localhost" uuid="10879dc9-c328-4691-9aac-89a51143e8ba">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>zeta.*</schema-pattern>
+      <default-schemas>zeta.*</default-schemas>
+    </data-source>
+  </component>
+</project>
